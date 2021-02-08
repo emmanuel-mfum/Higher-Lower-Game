@@ -39,7 +39,7 @@ def game():
     print(f"Compare A: {itemA['name']}, {itemA['description']}, from {itemA['country']} ")
     print(vs)
     print(f"Against B: {itemB['name']}, {itemB['description']}, from {itemB['country']}")
-    choice = input("Who has more followers? Type 'A' or 'B' ").lower()
+    choice = input("Who has more followers? Type 'A' or 'B' ")
 
     result = False
     if choice == "A":
